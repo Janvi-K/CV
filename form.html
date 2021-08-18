@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact-me form</title>
+
+  </head>
+  <body>
+    <h3>CONTACT ME FORM</h3>
+
+    <form  action="mailto:Janvi.kod@gmail.com" method="post" enctype="text/plain">
+      <!--post in the mehtod attribute of form simply means that we are going to tranfer what the Users
+       types into these input fields into the email client.-->
+      <label for="name">Your name: </label>
+      <input type="text" id="name" name="name" value=""><br>
+      <label for="email">Your email</label>
+      <input type="email" id="email" name="email" value=""><br>
+      <label for="message">Your message: </label><br>
+      <textarea name="Yourmessage" id="message" rows="10" cols="30"></textarea><br>
+      <input type="submit" name="submit" value="submit">
+      <!-- Here when you click submit button it will take you back to homepage the reason is that in the
+        action attribute of the form tag  we have mentioned "index.html"(action attribute tells what should
+        happen when you click the submit button). And at the moment the action will simply take the user to
+        index.html page)-->
+    <!-- <form class="" action="mailto:info@londonappbrewery.com" method="post">
+        here we have mentioned "mailto" int the action attribute of the form . whem we clcik the
+        submit button it will open the default mail client, so that could be mail on mac or it might go into
+        gmail if you are inside chrome and it puts the email address that you have specified after the colon
+        in action attribute.-->
+
+    </form>
+
+  </body>
+</html>
